@@ -1,20 +1,28 @@
 {
   "files": {
-    "static/js/1.chunk.js": "/wp-content/themes/sharkit/static/js/1.chunk.js",
-    "static/js/1.chunk.js.map": "/wp-content/themes/sharkit/static/js/1.chunk.js.map",
-    "main.css": "/wp-content/themes/sharkit/static/css/main.chunk.css",
+    "static/css/0.chunk.css": "/wp-content/themes/sharkit/static/css/0.chunk.css",
+    "static/js/0.chunk.js": "/wp-content/themes/sharkit/static/js/0.chunk.js",
+    "static/css/0.chunk.css.map": "/wp-content/themes/sharkit/static/css/0.chunk.css.map",
+    "static/js/0.chunk.js.map": "/wp-content/themes/sharkit/static/js/0.chunk.js.map",
     "main.js": "/wp-content/themes/sharkit/static/js/main.chunk.js",
-    "main.css.map": "/wp-content/themes/sharkit/static/css/main.chunk.css.map",
     "main.js.map": "/wp-content/themes/sharkit/static/js/main.chunk.js.map",
     "runtime-main.js": "/wp-content/themes/sharkit/static/js/bundle.js",
     "runtime-main.js.map": "/wp-content/themes/sharkit/static/js/bundle.js.map",
     "index.php": "/wp-content/themes/sharkit/index.php",
-    "static/media/logo.svg": "/wp-content/themes/sharkit/static/media/logo.5d5d9eef.svg"
+    "static/media/fundo-servicos.jpg": "/wp-content/themes/sharkit/static/media/fundo-servicos.fc8ee607.jpg",
+    "static/media/icone-alocacao.png": "/wp-content/themes/sharkit/static/media/icone-alocacao.d37afd9e.png",
+    "static/media/icone-hunting.png": "/wp-content/themes/sharkit/static/media/icone-hunting.e472103d.png",
+    "static/media/icone-rh.png": "/wp-content/themes/sharkit/static/media/icone-rh.850d883d.png",
+    "static/media/icone-treinamento.png": "/wp-content/themes/sharkit/static/media/icone-treinamento.21e1c068.png",
+    "static/media/logo.png": "/wp-content/themes/sharkit/static/media/logo.3e9ec3e5.png",
+    "static/media/slider-1.jpg": "/wp-content/themes/sharkit/static/media/slider-1.d8711c95.jpg",
+    "static/media/slider-2.jpg": "/wp-content/themes/sharkit/static/media/slider-2.2401272c.jpg",
+    "static/media/vetor-quem-somos.jpg": "/wp-content/themes/sharkit/static/media/vetor-quem-somos.8e10fabe.jpg"
   },
   "entrypoints": [
     "static/js/bundle.js",
-    "static/js/1.chunk.js",
-    "static/css/main.chunk.css",
+    "static/css/0.chunk.css",
+    "static/js/0.chunk.js",
     "static/js/main.chunk.js"
   ]
 }
