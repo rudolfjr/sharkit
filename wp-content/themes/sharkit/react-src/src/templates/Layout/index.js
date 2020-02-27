@@ -1,5 +1,6 @@
 // CORE REACT
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Boostrap Components
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,6 +11,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+
+// Icones
+import { FacebookSquare } from 'styled-icons/boxicons-logos';
+import { LinkedinSquare } from 'styled-icons/boxicons-logos';
+import { Instagram } from 'styled-icons/boxicons-logos';
+import { Whatsapp } from 'styled-icons/boxicons-logos';
+import { Email } from 'styled-icons/entypo';
+
 
 // Componentes
 import Slider from '../../components/Slider';
@@ -22,7 +31,10 @@ import * as S from './styled';
 
 // Imagens
 import logo from '../../assets/img/logo.png';
+import logoBranca from '../../assets/img/logo-branco.png';
 import quemSomos from '../../assets/img/vetor-quem-somos.jpg';
+
+
 
 export default function Layout() {
   return (
@@ -100,6 +112,45 @@ export default function Layout() {
     </Container>
     <Servicos />
     <Vagas />
+
+    <S.FooterWrapper>
+      <Container>
+        <Row>
+          <Col xs={12} sm={4}>
+            <p>
+              <img src={logoBranca} alt="SharkIT" />
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, veritatis officiis repudiandae laudantium eos mollitia est, quaerat laborum, alias aliquid aperiam id architecto expedita doloremque vel. Esse, laborum molestias.
+            </p>
+            <div className="redes">
+              <Link to="/"><FacebookSquare /></Link> 
+              <Link to="/"><LinkedinSquare /></Link> 
+              <Link to="/"><Instagram /></Link> 
+              <Link to="/"><Email /></Link> 
+              <Link to="/"><Whatsapp /></Link> 
+            </div>
+          </Col>
+          <Col xs={12} sm={4}></Col>
+          <Col xs={12} sm={4}>
+            <h4><strong>MENU</strong></h4>
+            <ul>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/">Quem Somos</Link></li>
+              <li><Link to="/">Nossos Serviços</Link></li>
+              <li><Link to="/">Vagas</Link></li>
+              <li><Link to="/">Contato</Link></li>
+            </ul>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <hr/>
+          <small>Criado por <Link to="https://rudolf.dev">rudolf.dev</Link></small>
+          </Col>
+        </Row>
+      </Container>
+    </S.FooterWrapper>
     </>
   );
 }

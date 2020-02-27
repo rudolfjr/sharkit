@@ -7,7 +7,7 @@ const customMedia = generateMedia({
     mobile: "768px"
 });
 
-// Configuração para o topo do site */
+
 export const MenuWrapper = styled.section`
     display: block;
     width: 100%;
@@ -22,7 +22,7 @@ export const MenuWrapper = styled.section`
     }
 
     ${customMedia.lessThan("desktop")`
-        font-size: 14px;        
+        font-size: 18px;        
     `}
 `;
 
@@ -31,13 +31,60 @@ export const Layouth2 = styled.h2`
     font-weight: 300;
 
     ${customMedia.lessThan("desktop")`
-        font-size: 14px;        
+        font-size: 32px;        
     `}
 `;
 
 export const Layouth3 = styled.h3`
     font-size: 32px;
     font-weight: 700;
+
+    ${customMedia.lessThan("desktop")`
+        font-size: 24px;        
+    `}
+`;
+
+
+
+export const FooterWrapper = styled.section`
+    display: block;
+    width: 100%;
+    background-color: #333333;
+    padding: 40px 0px;
+    color: #fff;
+
+    img{
+        max-height: 100px;
+    }
+
+    a{
+        color: #fff;
+        font-size: 14px;
+
+        svg{
+            max-height: 32px;
+        }
+    }
+
+    ul{
+        padding-left:20px;
+    }
+
+    h4{
+        margin-top: 60px;
+    }
+
+    .redes{
+        a{
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            position: relative;
+            float: left;
+            margin: 5px;
+        }
+    }
+
 
     ${customMedia.lessThan("desktop")`
         font-size: 14px;        

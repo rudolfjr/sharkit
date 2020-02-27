@@ -36,6 +36,10 @@ export const SliderImage = styled.div`
     background-size: cover;
     background-position: center;
     display: table;
+
+    ${customMedia.lessThan("tablet")`
+        height: 350px;  
+    `}
 `;
 
 export const SliderText = styled.div`
@@ -59,6 +63,11 @@ export const SliderH1 = styled.h1`
     ${customMedia.lessThan("tablet")`
         font-size: 42px;        
     `}
+
+    ${customMedia.lessThan("mobile")`
+        font-size: 28px;     
+        padding: 10px 40px;   
+    `}
 `;
 
 export const SliderH2 = styled.h2`
@@ -74,5 +83,10 @@ export const SliderH2 = styled.h2`
 
     ${customMedia.lessThan("tablet")`
         font-size: 28px;        
+    `}
+
+    ${customMedia.lessThan("mobile")`
+        font-size: 22px;     
+        padding: 10px 40px;   
     `}
 `;

@@ -42,3 +42,10 @@ export const ServicosSecaoTitle = styled.h2`
     margin-bottom: 70px;
     text-align: center;
 `;
+
+export const ServicoCaixa = styled.div`
+    
+    ${customMedia.lessThan("desktop")`    
+        margin-bottom: 60px;
+    `}
+`;

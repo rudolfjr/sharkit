@@ -24,30 +24,40 @@ export default function Servicos() {
                 </Col>
             </Row>
             <Row>
-                <Col>
-                    <Image src={iconeRh} fluid />
-                    <S.ServicosTitle>Extensão de RH</S.ServicosTitle>
-                    <Button variant="primary">Conheça</Button>
+                <Col xs={12} sm={6} md={4} lg>
+                    <S.ServicoCaixa>
+                        <Image src={iconeRh} fluid />
+                        <S.ServicosTitle>Extensão de RH</S.ServicosTitle>
+                        <Button variant="primary">Conheça</Button>
+                    </S.ServicoCaixa>
                 </Col>
-                <Col>
-                    <Image src={iconeInfra} fluid />
-                    <S.ServicosTitle>Infraestrutura</S.ServicosTitle>
-                    <Button variant="primary">Conheça</Button>
+                <Col xs={12} sm={6} md={4} lg>
+                    <S.ServicoCaixa>
+                        <Image src={iconeInfra} fluid />
+                        <S.ServicosTitle>Infraestrutura</S.ServicosTitle>
+                        <Button variant="primary">Conheça</Button>
+                    </S.ServicoCaixa>
                 </Col>
-                <Col>
-                    <Image src={iconeHunting} fluid />
-                    <S.ServicosTitle>Hunting</S.ServicosTitle>
-                    <Button variant="primary">Conheça</Button>
+                <Col xs={12} sm={6} md={4} lg>
+                    <S.ServicoCaixa>
+                        <Image src={iconeHunting} fluid />
+                        <S.ServicosTitle>Hunting</S.ServicosTitle>
+                        <Button variant="primary">Conheça</Button>
+                    </S.ServicoCaixa>
                 </Col>
-                <Col>
-                    <Image src={iconeAlocacao} fluid />
-                    <S.ServicosTitle>Alocação de Profissionais</S.ServicosTitle>
-                    <Button variant="primary">Conheça</Button>
+                <Col xs={12} sm={6} md={4} lg>
+                    <S.ServicoCaixa>
+                        <Image src={iconeAlocacao} fluid />
+                        <S.ServicosTitle>Alocação de Profissionais</S.ServicosTitle>
+                        <Button variant="primary">Conheça</Button>
+                    </S.ServicoCaixa>
                 </Col>
-                <Col>
-                    <Image src={iconeTreinamento} fluid />
-                    <S.ServicosTitle>Treinamento</S.ServicosTitle>
-                    <Button variant="primary">Conheça</Button>
+                <Col xs={12} sm={6} md={4} lg>
+                    <S.ServicoCaixa>
+                        <Image src={iconeTreinamento} fluid />
+                        <S.ServicosTitle>Treinamento</S.ServicosTitle>
+                        <Button variant="primary">Conheça</Button>
+                    </S.ServicoCaixa>
                 </Col>
             </Row>
         </Container>

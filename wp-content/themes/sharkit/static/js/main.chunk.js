@@ -104,6 +104,17 @@ module.exports = __webpack_require__.p + "static/media/icone-treinamento.21e1c06
 
 /***/ }),
 
+/***/ "./src/assets/img/logo-branco.png":
+/*!****************************************!*\
+  !*** ./src/assets/img/logo-branco.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/logo-branco.a9de3cad.png";
+
+/***/ }),
+
 /***/ "./src/assets/img/logo.png":
 /*!*********************************!*\
   !*** ./src/assets/img/logo.png ***!
@@ -227,9 +238,19 @@ function Servicos() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    xs: 12,
+    sm: 6,
+    md: 4,
+    lg: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicoCaixa"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -237,26 +258,36 @@ function Servicos() {
     fluid: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicosTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, "Extens\xE3o de RH"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
     variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
-  }, "Conhe\xE7a")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Conhe\xE7a"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    xs: 12,
+    sm: 6,
+    md: 4,
+    lg: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicoCaixa"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -264,57 +295,40 @@ function Servicos() {
     fluid: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicosTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 37
     },
     __self: this
   }, "Infraestrutura"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
     variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "Conhe\xE7a")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    src: _assets_img_icone_hunting_png__WEBPACK_IMPORTED_MODULE_9___default.a,
-    fluid: true,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicosTitle"], {
+  }, "Conhe\xE7a"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    xs: 12,
+    sm: 6,
+    md: 4,
+    lg: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
-  }, "Hunting"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    variant: "primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Conhe\xE7a")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicoCaixa"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    src: _assets_img_icone_alocacao_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+    src: _assets_img_icone_hunting_png__WEBPACK_IMPORTED_MODULE_9___default.a,
     fluid: true,
     __source: {
       fileName: _jsxFileName,
@@ -327,17 +341,64 @@ function Servicos() {
       lineNumber: 44
     },
     __self: this
-  }, "Aloca\xE7\xE3o de Profissionais"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "Hunting"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
     variant: "primary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
-  }, "Conhe\xE7a")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Conhe\xE7a"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    xs: 12,
+    sm: 6,
+    md: 4,
+    lg: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicoCaixa"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    src: _assets_img_icone_alocacao_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+    fluid: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicosTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Aloca\xE7\xE3o de Profissionais"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    variant: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Conhe\xE7a"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    xs: 12,
+    sm: 6,
+    md: 4,
+    lg: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicoCaixa"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -345,23 +406,23 @@ function Servicos() {
     fluid: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 57
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_6__["ServicosTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 58
     },
     __self: this
   }, "Treinamento"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
     variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 59
     },
     __self: this
-  }, "Conhe\xE7a")))));
+  }, "Conhe\xE7a"))))));
 }
 
 /***/ }),
@@ -370,7 +431,7 @@ function Servicos() {
 /*!*******************************************!*\
   !*** ./src/components/Servicos/styled.js ***!
   \*******************************************/
-/*! exports provided: ServicosWrapper, ServicosTitle, ServicosSecaoTitle */
+/*! exports provided: ServicosWrapper, ServicosTitle, ServicosSecaoTitle, ServicoCaixa */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -378,6 +439,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicosWrapper", function() { return ServicosWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicosTitle", function() { return ServicosTitle; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicosSecaoTitle", function() { return ServicosSecaoTitle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicoCaixa", function() { return ServicoCaixa; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var styled_media_query__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-media-query */ "./node_modules/styled-media-query/dist/styled-media-query.es.js");
 /* harmony import */ var _assets_img_fundo_servicos_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/img/fundo-servicos.jpg */ "./src/assets/img/fundo-servicos.jpg");
@@ -420,6 +482,12 @@ const ServicosSecaoTitle = styled_components__WEBPACK_IMPORTED_MODULE_0__["defau
     margin: 0px;
     margin-bottom: 70px;
     text-align: center;
+`;
+const ServicoCaixa = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+    
+    ${customMedia.lessThan("desktop")`    
+        margin-bottom: 60px;
+    `}
 `;
 
 /***/ }),
@@ -619,6 +687,10 @@ const SliderImage = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].di
     background-size: cover;
     background-position: center;
     display: table;
+
+    ${customMedia.lessThan("tablet")`
+        height: 350px;  
+    `}
 `;
 const SliderText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
     display: table-cell;
@@ -640,6 +712,11 @@ const SliderH1 = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1`
     ${customMedia.lessThan("tablet")`
         font-size: 42px;        
     `}
+
+    ${customMedia.lessThan("mobile")`
+        font-size: 28px;     
+        padding: 10px 40px;   
+    `}
 `;
 const SliderH2 = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2`
     margin: 0px;
@@ -654,6 +731,11 @@ const SliderH2 = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2`
 
     ${customMedia.lessThan("tablet")`
         font-size: 28px;        
+    `}
+
+    ${customMedia.lessThan("mobile")`
+        font-size: 22px;     
+        padding: 10px 40px;   
     `}
 `;
 
@@ -719,7 +801,8 @@ function Vagas() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -767,7 +850,8 @@ function Vagas() {
   }, "Inscrever-se")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -815,7 +899,8 @@ function Vagas() {
   }, "Inscrever-se")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
@@ -863,7 +948,8 @@ function Vagas() {
   }, "Inscrever-se")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
@@ -911,7 +997,8 @@ function Vagas() {
   }, "Inscrever-se")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 76
@@ -959,7 +1046,8 @@ function Vagas() {
   }, "Inscrever-se")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
@@ -1007,7 +1095,8 @@ function Vagas() {
   }, "Inscrever-se")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 104
@@ -1055,7 +1144,8 @@ function Vagas() {
   }, "Inscrever-se")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     sm: 6,
-    md: 3,
+    md: 4,
+    lg: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 118
@@ -1119,12 +1209,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_media_query__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-media-query */ "./node_modules/styled-media-query/dist/styled-media-query.es.js");
 
 
+const customMedia = Object(styled_media_query__WEBPACK_IMPORTED_MODULE_1__["generateMedia"])({
+  desktop: "1199px",
+  tablet: "991px",
+  mobile: "768px"
+});
 const VagasTitle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2`
     text-transform: uppercase;
     font-weight: 700;
     font-size: 32px;
     margin: 70px 0px;
     text-align: center;
+
+    ${customMedia.lessThan("desktop")`
+        font-size: 24px;        
+    `}
 `;
 
 /***/ }),
@@ -1186,30 +1285,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Layout; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Image */ "./node_modules/react-bootstrap/esm/Image.js");
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
-/* harmony import */ var _components_Slider__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Slider */ "./src/components/Slider/index.js");
-/* harmony import */ var _components_Servicos__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/Servicos */ "./src/components/Servicos/index.js");
-/* harmony import */ var _components_Vagas__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/Vagas */ "./src/components/Vagas/index.js");
-/* harmony import */ var _assets_css_global__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../assets/css/global */ "./src/assets/css/global.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styled */ "./src/templates/Layout/styled.js");
-/* harmony import */ var _assets_img_logo_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../assets/img/logo.png */ "./src/assets/img/logo.png");
-/* harmony import */ var _assets_img_logo_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_img_logo_png__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../assets/img/vetor-quem-somos.jpg */ "./src/assets/img/vetor-quem-somos.jpg");
-/* harmony import */ var _assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+/* harmony import */ var react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/Image */ "./node_modules/react-bootstrap/esm/Image.js");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+/* harmony import */ var styled_icons_boxicons_logos__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-icons/boxicons-logos */ "./node_modules/styled-icons/boxicons-logos/index.esm.js");
+/* harmony import */ var styled_icons_entypo__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! styled-icons/entypo */ "./node_modules/styled-icons/entypo/index.esm.js");
+/* harmony import */ var _components_Slider__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/Slider */ "./src/components/Slider/index.js");
+/* harmony import */ var _components_Servicos__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/Servicos */ "./src/components/Servicos/index.js");
+/* harmony import */ var _components_Vagas__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../components/Vagas */ "./src/components/Vagas/index.js");
+/* harmony import */ var _assets_css_global__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../assets/css/global */ "./src/assets/css/global.js");
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./styled */ "./src/templates/Layout/styled.js");
+/* harmony import */ var _assets_img_logo_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../assets/img/logo.png */ "./src/assets/img/logo.png");
+/* harmony import */ var _assets_img_logo_png__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_img_logo_png__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_img_logo_branco_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../assets/img/logo-branco.png */ "./src/assets/img/logo-branco.png");
+/* harmony import */ var _assets_img_logo_branco_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_img_logo_branco_png__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../assets/img/vetor-quem-somos.jpg */ "./src/assets/img/vetor-quem-somos.jpg");
+/* harmony import */ var _assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_19__);
 var _jsxFileName = "D:\\wamp64\\www\\sharkit\\wp-content\\themes\\sharkit\\react-src\\src\\templates\\Layout\\index.js";
 // CORE REACT
+
  // Boostrap Components
 
 
 
+
+
+
+
+
+ // Icones
 
 
 
@@ -1226,342 +1337,591 @@ var _jsxFileName = "D:\\wamp64\\www\\sharkit\\wp-content\\themes\\sharkit\\react
 
 
 
+
 function Layout() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_assets_css_global__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_13__["MenuWrapper"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    expand: "lg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Brand, {
-    href: "#home",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    src: _assets_img_logo_png__WEBPACK_IMPORTED_MODULE_14___default.a,
-    alt: "SharkIT",
-    fluid: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Toggle, {
-    "aria-controls": "basic-navbar-nav",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Collapse, {
-    className: "justify-content-end",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__["default"].Link, {
-    href: "#home",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__["default"].Link, {
-    href: "#link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "Quem Somos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__["default"].Link, {
-    href: "#link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Nossos Servi\xE7os"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__["default"].Link, {
-    href: "#link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Vagas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__["default"].Link, {
-    href: "#link",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_assets_css_global__WEBPACK_IMPORTED_MODULE_15__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, "Contato")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_16__["MenuWrapper"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    expand: "lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"].Brand, {
+    href: "#home",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    src: _assets_img_logo_png__WEBPACK_IMPORTED_MODULE_17___default.a,
+    alt: "SharkIT",
+    fluid: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"].Toggle, {
+    "aria-controls": "basic-navbar-nav",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"].Collapse, {
+    className: "justify-content-end",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    className: "espacar-top",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
+    href: "#home",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    sm: 5,
-    xs: 12,
+  }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
+    href: "#link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_13__["Layouth2"], {
+  }, "Quem Somos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
+    href: "#link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: this
-  }, "Quem somos?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_13__["Layouth3"], {
+  }, "Nossos Servi\xE7os"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
+    href: "#link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
-  }, "A sua escolha certa!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Vagas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
+    href: "#link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum. Provident alias illo aliquid similique, ratione, voluptatibus porro tempore excepturi beatae odit exercitationem error eos. Libero at tenetur dolore sint?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    variant: "primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, "Entre em contato conosco!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_13__["Layouth2"], {
-    className: "espacar-titulos",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, "Vagas?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_13__["Layouth3"], {
+  }, "Contato")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "A todo momento algo novo!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 61
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum. Provident alias illo aliquid similique, ratione, voluptatibus porro tempore excepturi beatae odit exercitationem error eos. Libero at tenetur dolore sint?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    variant: "primary",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: "espacar-top",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    sm: 5,
+    xs: 12,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_16__["Layouth2"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
-  }, "Confira nossas vagas!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: "alinhar text-right",
+  }, "Quem somos?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_16__["Layouth3"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "A sua escolha certa!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    src: _assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_15___default.a,
-    alt: "Recrutamento SHARKIT",
-    fluid: true,
+  }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum. Provident alias illo aliquid similique, ratione, voluptatibus porro tempore excepturi beatae odit exercitationem error eos. Libero at tenetur dolore sint?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 69
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Entre em contato conosco!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_16__["Layouth2"], {
+    className: "espacar-titulos",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 71
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, "Vagas?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_16__["Layouth3"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "Miss\xE3o")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "A todo momento algo novo!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 73
     },
     __self: this
-  }, "Oferecemos as melhores solu\xE7\xF5es tecnol\xF3gicas contribuindo de forma sustent\xE1vel, para o crescimento de todos os nossos clientes, com valores justos e independentemente da plataforma ou do seu tipo de negocio.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum. Provident alias illo aliquid similique, ratione, voluptatibus porro tempore excepturi beatae odit exercitationem error eos. Libero at tenetur dolore sint?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    variant: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "Confira nossas vagas!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: "alinhar text-right",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    src: _assets_img_vetor_quem_somos_jpg__WEBPACK_IMPORTED_MODULE_19___default.a,
+    alt: "Recrutamento SHARKIT",
+    fluid: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 84
     },
     __self: this
-  }, "Vis\xE3o")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, "Ser a consultoria l\xEDder no ramo de tecnologia e desenvolvimento, destacando-se sempre por criar solu\xE7\xF5es inovadoras.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Miss\xE3o")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, "Valores")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88
-    },
-    __self: this
-  }, "\xC9tica"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, "Dedica\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Oferecemos as melhores solu\xE7\xF5es tecnol\xF3gicas contribuindo de forma sustent\xE1vel, para o crescimento de todos os nossos clientes, com valores justos e independentemente da plataforma ou do seu tipo de negocio.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, "Comprometimento"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91
     },
     __self: this
-  }, "Confiabilidade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "Vis\xE3o")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 92
     },
     __self: this
-  }, "Inova\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Ser a consultoria l\xEDder no ramo de tecnologia e desenvolvimento, destacando-se sempre por criar solu\xE7\xF5es inovadoras.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 97
     },
     __self: this
-  }, "Qualidade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 98
     },
     __self: this
-  }, "Desenvolvimento"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 98
     },
     __self: this
-  }, "Organiza\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Valores")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 99
     },
     __self: this
-  }, "Agilidade"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Servicos__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "\xC9tica"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 101
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Vagas__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, "Dedica\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 102
     },
     __self: this
-  }));
+  }, "Comprometimento"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Confiabilidade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "Inova\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Qualidade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, "Desenvolvimento"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, "Organiza\xE7\xE3o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, "Agilidade"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Servicos__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Vagas__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_16__["FooterWrapper"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    xs: 12,
+    sm: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_img_logo_branco_png__WEBPACK_IMPORTED_MODULE_18___default.a,
+    alt: "SharkIT",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, veritatis officiis repudiandae laudantium eos mollitia est, quaerat laborum, alias aliquid aperiam id architecto expedita doloremque vel. Esse, laborum molestias."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "redes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_icons_boxicons_logos__WEBPACK_IMPORTED_MODULE_10__["FacebookSquare"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_icons_boxicons_logos__WEBPACK_IMPORTED_MODULE_10__["LinkedinSquare"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_icons_boxicons_logos__WEBPACK_IMPORTED_MODULE_10__["Instagram"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_icons_entypo__WEBPACK_IMPORTED_MODULE_11__["Email"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 131
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_icons_boxicons_logos__WEBPACK_IMPORTED_MODULE_10__["Whatsapp"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 131
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    xs: 12,
+    sm: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    xs: 12,
+    sm: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136
+    },
+    __self: this
+  }, "MENU")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
+  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }, "Quem Somos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, "Nossos Servi\xE7os")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
+  }, "Vagas")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, "Contato"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 147
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 148
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("small", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149
+    },
+    __self: this
+  }, "Criado por ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "https://rudolf.dev",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149
+    },
+    __self: this
+  }, "rudolf.dev")))))));
 }
 
 /***/ }),
@@ -1570,7 +1930,7 @@ function Layout() {
 /*!****************************************!*\
   !*** ./src/templates/Layout/styled.js ***!
   \****************************************/
-/*! exports provided: MenuWrapper, Layouth2, Layouth3 */
+/*! exports provided: MenuWrapper, Layouth2, Layouth3, FooterWrapper */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1578,6 +1938,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuWrapper", function() { return MenuWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Layouth2", function() { return Layouth2; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Layouth3", function() { return Layouth3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterWrapper", function() { return FooterWrapper; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var styled_media_query__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-media-query */ "./node_modules/styled-media-query/dist/styled-media-query.es.js");
 
@@ -1586,8 +1947,7 @@ const customMedia = Object(styled_media_query__WEBPACK_IMPORTED_MODULE_1__["gene
   desktop: "1199px",
   tablet: "991px",
   mobile: "768px"
-}); // Configuração para o topo do site */
-
+});
 const MenuWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].section`
     display: block;
     width: 100%;
@@ -1602,7 +1962,7 @@ const MenuWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].se
     }
 
     ${customMedia.lessThan("desktop")`
-        font-size: 14px;        
+        font-size: 18px;        
     `}
 `;
 const Layouth2 = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2`
@@ -1610,12 +1970,56 @@ const Layouth2 = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2`
     font-weight: 300;
 
     ${customMedia.lessThan("desktop")`
-        font-size: 14px;        
+        font-size: 32px;        
     `}
 `;
 const Layouth3 = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h3`
     font-size: 32px;
     font-weight: 700;
+
+    ${customMedia.lessThan("desktop")`
+        font-size: 24px;        
+    `}
+`;
+const FooterWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].section`
+    display: block;
+    width: 100%;
+    background-color: #333333;
+    padding: 40px 0px;
+    color: #fff;
+
+    img{
+        max-height: 100px;
+    }
+
+    a{
+        color: #fff;
+        font-size: 14px;
+
+        svg{
+            max-height: 32px;
+        }
+    }
+
+    ul{
+        padding-left:20px;
+    }
+
+    h4{
+        margin-top: 60px;
+    }
+
+    .redes{
+        a{
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            position: relative;
+            float: left;
+            margin: 5px;
+        }
+    }
+
 
     ${customMedia.lessThan("desktop")`
         font-size: 14px;        
@@ -1636,5 +2040,5 @@ module.exports = __webpack_require__(/*! D:\wamp64\www\sharkit\wp-content\themes
 
 /***/ })
 
-},[[0,"runtime-main",0]]]);
+},[[0,"runtime-main",1]]]);
 //# sourceMappingURL=main.chunk.js.map
