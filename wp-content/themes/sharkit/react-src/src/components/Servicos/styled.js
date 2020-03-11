@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { generateMedia } from "styled-media-query";
 import fundoServicos from '../../assets/img/fundo-servicos.jpg';
+import { Link } from 'react-router-dom';
 
 const customMedia = generateMedia({
     desktop: "1199px",
@@ -48,4 +49,22 @@ export const ServicoCaixa = styled.div`
     ${customMedia.lessThan("desktop")`    
         margin-bottom: 60px;
     `}
+`;
+
+
+export const servicoLink = styled(Link)`
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.9;
+  }
 `;

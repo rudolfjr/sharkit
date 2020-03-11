@@ -1,20 +1,28 @@
-import React from 'react';
+// CORE REACT
+import React, { useEffect, useState } from 'react';
+import api from '../../utils/Api';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
 
 import * as S from './styled';
 
-import iconeRh from '../../assets/img/icone-rh.png';
-import iconeInfra from '../../assets/img/icone-infra.png';
-import iconeHunting from '../../assets/img/icone-hunting.png';
-import iconeAlocacao from '../../assets/img/icone-alocacao.png';
-import iconeTreinamento from '../../assets/img/icone-treinamento.png';
 
 export default function Servicos() {
+
+    const [servicos, setServicos] = useState([]);
+
+    useEffect(() => {
+        async function getServicos(){
+            const response = await  api.get(`wp-json/wp/v2/servico?per_page=5`);
+            setServicos(response.data);   
+        }
+        getServicos();
+    }, []);
+
+
   return (
     <S.ServicosWrapper>
         <Container>
@@ -24,41 +32,15 @@ export default function Servicos() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} sm={6} md={4} lg>
+            {servicos.map(servico => (
+                <Col xs={12} sm={6} md={4} lg  key={servico.id}>
                     <S.ServicoCaixa>
-                        <Image src={iconeRh} fluid />
-                        <S.ServicosTitle>Extensão de RH</S.ServicosTitle>
-                        <Button variant="primary">Conheça</Button>
+                        <Image src={servico.fimg_url} fluid />
+                        <S.ServicosTitle>{servico.title.rendered}</S.ServicosTitle>
+                        <S.servicoLink to={'servico/' + servico.slug}>Conheça</S.servicoLink>
                     </S.ServicoCaixa>
                 </Col>
-                <Col xs={12} sm={6} md={4} lg>
-                    <S.ServicoCaixa>
-                        <Image src={iconeInfra} fluid />
-                        <S.ServicosTitle>Infraestrutura</S.ServicosTitle>
-                        <Button variant="primary">Conheça</Button>
-                    </S.ServicoCaixa>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg>
-                    <S.ServicoCaixa>
-                        <Image src={iconeHunting} fluid />
-                        <S.ServicosTitle>Hunting</S.ServicosTitle>
-                        <Button variant="primary">Conheça</Button>
-                    </S.ServicoCaixa>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg>
-                    <S.ServicoCaixa>
-                        <Image src={iconeAlocacao} fluid />
-                        <S.ServicosTitle>Alocação de Profissionais</S.ServicosTitle>
-                        <Button variant="primary">Conheça</Button>
-                    </S.ServicoCaixa>
-                </Col>
-                <Col xs={12} sm={6} md={4} lg>
-                    <S.ServicoCaixa>
-                        <Image src={iconeTreinamento} fluid />
-                        <S.ServicosTitle>Treinamento</S.ServicosTitle>
-                        <Button variant="primary">Conheça</Button>
-                    </S.ServicoCaixa>
-                </Col>
+            ))}
             </Row>
         </Container>
     </S.ServicosWrapper>

@@ -1,6 +1,6 @@
 // CORE REACT
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
+import api from '../../utils/Api';
 // Boostrap Components
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
@@ -8,38 +8,35 @@ import Carousel from 'react-bootstrap/Carousel';
 // Estilos
 import * as S from './styled';
 
-// Imagens
-import slider1 from '../../assets/img/slider-1.jpg';
-import slider2 from '../../assets/img/slider-2.jpg';
-
-
 export default function Slider() {
+
+  const [sliders, setSliders] = useState([]);
+
+  useEffect(() => {
+      async function getSliders(){
+          const response = await  api.get(`wp-json/wp/v2/slider`);
+          setSliders(response.data);     
+      }
+      getSliders();
+  }, []);
+
+
   return (
     <Carousel>
-      <Carousel.Item>
+      {sliders.map(slide => (
+      <Carousel.Item key={slide.id}>
         <S.SliderWrapper>
-            <S.SliderImage imagem={slider1}>
+            <S.SliderImage imagem={slide.fimg_url}>
                 <S.SliderText>
                     <Container>
-                        <S.SliderH1>SHARKIT</S.SliderH1>
-                        <S.SliderH2>Você procura,<br/>nós encontramos.</S.SliderH2>
+                        <S.SliderH1 dangerouslySetInnerHTML={{ __html: slide.titulo_1 }} />
+                        <S.SliderH2 dangerouslySetInnerHTML={{ __html: slide.titulo_2 }} />
                     </Container>
                 </S.SliderText>
             </S.SliderImage>
         </S.SliderWrapper>
       </Carousel.Item>
-      <Carousel.Item>
-        <S.SliderWrapper>
-            <S.SliderImage imagem={slider2}>
-                <S.SliderText>
-                    <Container>
-                        <S.SliderH1>Seleção e<br/>Recrutamento</S.SliderH1>
-                        <S.SliderH2>Feitos sob medida <br/>para sua empresa.</S.SliderH2>
-                    </Container>
-                </S.SliderText>
-            </S.SliderImage>
-        </S.SliderWrapper>
-      </Carousel.Item>
+      ))}
     </Carousel>
   );
 }

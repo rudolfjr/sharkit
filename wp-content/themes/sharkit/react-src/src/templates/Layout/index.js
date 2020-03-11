@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
+
 
 // Icones
 import { FacebookSquare } from 'styled-icons/boxicons-logos';
@@ -20,11 +20,6 @@ import { Whatsapp } from 'styled-icons/boxicons-logos';
 import { Email } from 'styled-icons/entypo';
 
 
-// Componentes
-import Slider from '../../components/Slider';
-import Servicos from '../../components/Servicos';
-import Vagas from '../../components/Vagas';
-
 // Estilos
 import GlobalStyles from '../../assets/css/global'; 
 import * as S from './styled';
@@ -32,11 +27,9 @@ import * as S from './styled';
 // Imagens
 import logo from '../../assets/img/logo.png';
 import logoBranca from '../../assets/img/logo-branco.png';
-import quemSomos from '../../assets/img/vetor-quem-somos.jpg';
 
-
-
-export default function Layout() {
+export default function Layout(props) {
+  
   return (
     <>
     <GlobalStyles />
@@ -57,61 +50,8 @@ export default function Layout() {
         </Container>
       </Navbar>
     </S.MenuWrapper>
-    <Slider />
-    <Container>
-      <Row className="espacar-top">
-        <Col sm={5} xs={12}>
-          <S.Layouth2>Quem somos?</S.Layouth2>
-          <S.Layouth3>A sua escolha certa!</S.Layouth3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum. Provident alias illo aliquid similique, ratione, voluptatibus porro tempore excepturi beatae odit exercitationem error eos. Libero at tenetur dolore sint?
-          </p>
-          <Button variant="primary">Entre em contato conosco!</Button>
-          
-          <S.Layouth2 className="espacar-titulos">Vagas?</S.Layouth2>
-          <S.Layouth3>A todo momento algo novo!</S.Layouth3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum. Provident alias illo aliquid similique, ratione, voluptatibus porro tempore excepturi beatae odit exercitationem error eos. Libero at tenetur dolore sint?
-          </p>
-          <Button variant="primary">Confira nossas vagas!</Button>
-        </Col>
-        <Col className="alinhar text-right">
-          <Image src={quemSomos} alt="Recrutamento SHARKIT" fluid />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <h3><strong>Missão</strong></h3>
-          <p>
-            Oferecemos as melhores soluções tecnológicas contribuindo de forma sustentável, para o crescimento de todos os nossos clientes, com valores justos e independentemente da plataforma ou do seu tipo de negocio.
-          </p>
-        </Col>
-
-        <Col>
-          <h3><strong>Visão</strong></h3>
-          <p>
-            Ser a consultoria líder no ramo de tecnologia e desenvolvimento, destacando-se sempre por criar soluções inovadoras.
-          </p>
-        </Col>
-
-        <Col>
-          <h3><strong>Valores</strong></h3>
-          <ul>
-            <li>Ética</li>
-            <li>Dedicação</li>
-            <li>Comprometimento</li>
-            <li>Confiabilidade</li>
-            <li>Inovação</li>
-            <li>Qualidade</li>
-            <li>Desenvolvimento</li>
-            <li>Organização</li>
-            <li>Agilidade</li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
-    <Servicos />
-    <Vagas />
+    
+    {props.children}
 
     <S.FooterWrapper>
       <Container>
@@ -120,15 +60,12 @@ export default function Layout() {
             <p>
               <img src={logoBranca} alt="SharkIT" />
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, veritatis officiis repudiandae laudantium eos mollitia est, quaerat laborum, alias aliquid aperiam id architecto expedita doloremque vel. Esse, laborum molestias.
-            </p>
             <div className="redes">
-              <Link to="/"><FacebookSquare /></Link> 
-              <Link to="/"><LinkedinSquare /></Link> 
-              <Link to="/"><Instagram /></Link> 
-              <Link to="/"><Email /></Link> 
-              <Link to="/"><Whatsapp /></Link> 
+              <a href="/"><FacebookSquare /></a> 
+              <a href="/"><LinkedinSquare /></a> 
+              <a href="/"><Instagram /></a> 
+              <a href="/"><Email /></a> 
+              <a href="/"><Whatsapp /></a> 
             </div>
           </Col>
           <Col xs={12} sm={4}></Col>
