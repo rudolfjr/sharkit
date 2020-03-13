@@ -36,15 +36,15 @@ export default function Layout(props) {
     <S.MenuWrapper>
       <Navbar expand="lg" >      
         <Container>
-          <Navbar.Brand href="#home"><Image src={logo} alt="SharkIT" fluid /></Navbar.Brand>
+          <Navbar.Brand href="/"><Image src={logo} alt="SharkIT" fluid /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end">
             <Nav >
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Quem Somos</Nav.Link>
-              <Nav.Link href="#link">Nossos Serviços</Nav.Link>
-              <Nav.Link href="#link">Vagas</Nav.Link>
-              <Nav.Link href="#link">Contato</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/#quem-somos">Quem Somos</Nav.Link>
+              <Nav.Link href="/#servicos">Nossos Serviços</Nav.Link>
+              <Nav.Link href="/#vagas">Vagas</Nav.Link>
+              <Nav.Link href="/#contato">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -73,10 +73,10 @@ export default function Layout(props) {
             <h4><strong>MENU</strong></h4>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/">Quem Somos</Link></li>
-              <li><Link to="/">Nossos Serviços</Link></li>
-              <li><Link to="/">Vagas</Link></li>
-              <li><Link to="/">Contato</Link></li>
+              <li><Link to="/#quem-somos">Quem Somos</Link></li>
+              <li><Link to="/#servicos">Nossos Serviços</Link></li>
+              <li><Link to="/#vagas">Vagas</Link></li>
+              <li><Link to="/#contato">Contato</Link></li>
             </ul>
           </Col>
         </Row>

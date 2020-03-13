@@ -1,3 +1,10 @@
 <?php
   $TEMPLATE_PATH = parse_url(get_template_directory_uri(), PHP_URL_PATH);
-?> <!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/wp-content/themes/sharkit/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-wptheme"/><link rel="apple-touch-icon" href="<?php echo $TEMPLATE_PATH; ?>/logo192.png"/><link rel="manifest" href="<?php echo $TEMPLATE_PATH; ?>/manifest.json"/><title>React WordPress Theme</title><link href="/wp-content/themes/sharkit/static/css/2.chunk.css?6ddb842b4305ee817bd5" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script src="/wp-content/themes/sharkit/static/js/bundle.js?6ddb842b4305ee817bd5"></script><script src="/wp-content/themes/sharkit/static/js/2.chunk.js?6ddb842b4305ee817bd5"></script><script src="/wp-content/themes/sharkit/static/js/main.chunk.js?6ddb842b4305ee817bd5"></script></body></html>
+?> <!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="manifest" href="<?php echo $TEMPLATE_PATH; ?>/manifest.json"/><title><?php
+        if ( is_single() ) { single_post_title(); }
+        elseif ( is_home() || is_front_page() ) { bloginfo('name'); print ' | '; bloginfo('description'); }
+        elseif ( is_page() ) { single_post_title(''); }
+        elseif ( is_search() ) { bloginfo('name'); print ' | Search results for ' . wp_specialchars($s); }
+        elseif ( is_404() ) { bloginfo('name'); print ' | Not Found'; }
+        else { bloginfo('name'); wp_title('|'); }
+    ?></title> <?php wp_head(); ?> <link href="/wp-content/themes/sharkit/static/css/2.chunk.css?15f1f02754b712d4fe6e" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script src="/wp-content/themes/sharkit/static/js/bundle.js?15f1f02754b712d4fe6e"></script><script src="/wp-content/themes/sharkit/static/js/2.chunk.js?15f1f02754b712d4fe6e"></script><script src="/wp-content/themes/sharkit/static/js/main.chunk.js?15f1f02754b712d4fe6e"></script></body></html>

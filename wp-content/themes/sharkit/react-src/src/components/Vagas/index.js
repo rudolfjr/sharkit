@@ -38,7 +38,7 @@ export default function Vagas() {
                     <Card.Body>
                         <Card.Title dangerouslySetInnerHTML={{ __html: vaga.title.rendered }} />
                         <Card.Text dangerouslySetInnerHTML={{ __html: vaga.excerpt.rendered }} />
-                        <S.vagasLink to={'vaga/' + vaga.slug}>Mais Informações</S.vagasLink>
+                        <S.vagasLink to={'/vaga/' + vaga.slug}>Mais Informações</S.vagasLink>
                     </Card.Body>
                 </Card>
             </Col>

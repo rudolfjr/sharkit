@@ -37,7 +37,7 @@ export default function Servicos() {
                     <S.ServicoCaixa>
                         <Image src={servico.fimg_url} fluid />
                         <S.ServicosTitle>{servico.title.rendered}</S.ServicosTitle>
-                        <S.servicoLink to={'servico/' + servico.slug}>Conheça</S.servicoLink>
+                        <S.servicoLink to={'/servico/' + servico.slug}>Conheça</S.servicoLink>
                     </S.ServicoCaixa>
                 </Col>
             ))}
