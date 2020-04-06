@@ -29,7 +29,7 @@ import logo from '../../assets/img/logo.png';
 import logoBranca from '../../assets/img/logo-branco.png';
 
 export default function Layout(props) {
-  
+    
   return (
     <>
     <GlobalStyles />
