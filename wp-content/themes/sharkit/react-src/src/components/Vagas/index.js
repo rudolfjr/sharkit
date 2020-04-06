@@ -12,14 +12,24 @@ import * as S from './styled';
 export default function Vagas() {
 
     const [vagas, setVagas] = useState([]);
+    const [porOffset, setOffset] = useState(0);
 
     useEffect(() => {
         async function getVagas(){
             const response = await  api.get(`wp-json/wp/v2/vaga?per_page=8`);
-            setVagas(response.data);    
+            setVagas(response.data); 
+            setOffset(8);   
         }
         getVagas();
     }, []);
+
+
+    async function getMaisVagas(event){
+
+        setOffset(parseInt(event.target.dataset.numeracao) + 4);
+        const response = await  api.get(`/wp-json/wp/v2/vaga?per_page=4&offset=${porOffset}`);
+        setVagas(vagas.concat(response.data));
+    }
 
 
   return (
@@ -38,11 +48,20 @@ export default function Vagas() {
                     <Card.Body>
                         <Card.Title dangerouslySetInnerHTML={{ __html: vaga.title.rendered }} />
                         <Card.Text dangerouslySetInnerHTML={{ __html: vaga.excerpt.rendered }} />
+                        <p>
+                            VAGA ID: <strong>#{vaga.id}</strong>
+                        </p>
                         <S.vagasLink to={'/vaga/' + vaga.slug}>Mais Informações</S.vagasLink>
                     </Card.Body>
                 </Card>
             </Col>
         ))}
+        </Row>
+        <Row>
+            <Col className="text-center">
+                <button className="btn btn-primary" onClick={getMaisVagas} data-numeracao={porOffset}>Carregar Mais Vagas</button>
+                <p>&nbsp;</p>
+            </Col>
         </Row>
     </Container>
     </>

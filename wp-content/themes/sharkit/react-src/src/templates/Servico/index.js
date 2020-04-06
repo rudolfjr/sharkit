@@ -8,10 +8,6 @@ import Col from 'react-bootstrap/Col';
 
 import Layout from "../../templates/Layout/index";
 
-// Componentes
-import Vagas from '../../components/Vagas';
-
-
 export default function Servico({match}) {
 
     const {slug} = match.params;
@@ -23,6 +19,7 @@ export default function Servico({match}) {
             setConteudos(response.data);   
         }
         getConteudos();
+        window.scrollTo(0, 0);
     }, [slug]);
 
   return (
@@ -38,7 +35,6 @@ export default function Servico({match}) {
             </Row>
         ))}
         </Container>
-        <Vagas />
     </Layout>
   );
 }

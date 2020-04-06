@@ -8,10 +8,26 @@ const customMedia = generateMedia({
 });
 
 
+
+export const avisoWrapper = styled.section`
+    background-color: #205ce2;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+
+    a{
+        color: #fff;
+
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+`;
+
 export const MenuWrapper = styled.section`
     display: block;
     width: 100%;
-    border-top: 15px solid #205ce2;
     -webkit-box-shadow: 10px 10px 43px -17px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 43px -17px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 43px -17px rgba(0,0,0,0.75);

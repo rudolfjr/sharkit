@@ -36,15 +36,38 @@ export default function Home() {
         <Container>
         {conteudos.map(conteudo => (
         <>
+
         <Row className="espacar-top">
+            <Col>
+                <S.Layouth2>Quem somos?</S.Layouth2>
+            </Col>
+        </Row>
+        
+        <Row >
+            <Col>
+                <h3><strong>Missão</strong></h3>
+                <div dangerouslySetInnerHTML={{ __html: conteudo.missao }} />
+            </Col>
+
+            <Col>
+                <h3><strong>Visão</strong></h3>
+                <div dangerouslySetInnerHTML={{ __html: conteudo.visao }} />
+            </Col>
+
+            <Col>
+                <h3><strong>Valores</strong></h3>
+                <div dangerouslySetInnerHTML={{ __html: conteudo.valores }} />
+            </Col>
+        </Row>
+        <Row >
             <Col sm={5} xs={12}>
-            <S.Layouth2>Quem somos?</S.Layouth2>
+            
             <S.Layouth3>A sua escolha certa!</S.Layouth3>
             <div dangerouslySetInnerHTML={{ __html: conteudo.texto_quem_somos }} />
             <Button variant="primary">Entre em contato conosco!</Button>
             
             <S.Layouth2 className="espacar-titulos">Vagas?</S.Layouth2>
-            <S.Layouth3>A todo momento algo novo!</S.Layouth3>
+            <S.Layouth3>#NósBuscamosVocê!</S.Layouth3>
             <div dangerouslySetInnerHTML={{ __html: conteudo.texto_vagas }} />
             <Button variant="primary">Confira nossas vagas!</Button>
             </Col>
@@ -52,24 +75,16 @@ export default function Home() {
             <Image src={quemSomos} alt="Recrutamento SHARKIT" fluid />
             </Col>
         </Row>
-        <Row>
-            <Col>
-            <h3><strong>Missão</strong></h3>
-            <div dangerouslySetInnerHTML={{ __html: conteudo.missao }} />
-            </Col>
-
-            <Col>
-            <h3><strong>Visão</strong></h3>
-            <div dangerouslySetInnerHTML={{ __html: conteudo.visao }} />
-            </Col>
-
-            <Col>
-            <h3><strong>Valores</strong></h3>
-            <div dangerouslySetInnerHTML={{ __html: conteudo.valores }} />
-            </Col>
-        </Row>
         </>
         ))}
+
+        <Row>
+            <Col>
+                <div className="video-responsivo">
+                    <iframe title="Video" width="560" height="315" src="https://www.youtube.com/embed/lzdCsS1Bv8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </Col>
+        </Row>
         </Container>
         <Servicos />
         <Vagas />

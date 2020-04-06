@@ -23,6 +23,27 @@ const GlobalStyles = createGlobalStyle`
         margin-bottom: 30px;
     }
 
+    .video-responsivo{
+
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px; 
+        height: 0; 
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        iframe, object, embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+
 `;
 
 export default GlobalStyles; 

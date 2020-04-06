@@ -33,6 +33,15 @@ export default function Layout(props) {
   return (
     <>
     <GlobalStyles />
+    <S.avisoWrapper>
+      <Container>
+        <Row>
+          <Col className="text-center">
+          (19) 996195752 | <a href="mailto:relacionamento@sharkit.com.br">relacionamento@sharkit.com.br</a> | Rua peru, 259 Amparo SP
+          </Col>
+        </Row>
+      </Container>
+    </S.avisoWrapper>
     <S.MenuWrapper>
       <Navbar expand="lg" >      
         <Container>
