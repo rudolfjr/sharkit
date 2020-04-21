@@ -44,7 +44,7 @@ const GlobalStyles = createGlobalStyle`
 
     .form-inline{
         input, button{
-            margin: 5px;
+            margin: 0px 5px;
         }
     }
 

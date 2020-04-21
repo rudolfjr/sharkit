@@ -14,6 +14,8 @@ export default function Vagas() {
     const [vagas, setVagas] = useState([]);
     const [porOffset, setOffset] = useState(0);
 
+    const [palavra, setPalavra] = useState('');
+
     useEffect(() => {
         async function getVagas(){
             const response = await  api.get(`wp-json/wp/v2/vaga?per_page=8`);
@@ -31,6 +33,13 @@ export default function Vagas() {
         setVagas(vagas.concat(response.data));
     }
 
+    async function buscaVagas(event){
+        event.preventDefault();
+        const response = await  api.get(`wp-json/wp/v2/vaga?search=${palavra}`);
+        setVagas(response.data); 
+
+    }
+
 
   return (
     <>
@@ -42,13 +51,12 @@ export default function Vagas() {
         </Row>
         <Row>
             <Col className="text-center">
-                <form class="form-inline">
+                <form class="form-inline" onSubmit={buscaVagas}>
                     <div class="form-group mb-2">
                         <label for="staticEmail2" class="sr-only">PALAVRAS CHAVES</label>
-                        <input type="text" class="form-control" placeholder="Digite as palavras desejadas*" required /> 
+                        <input type="text" class="form-control" placeholder="Palavras chaves*" onChange={e => setPalavra(e.target.value)} /> 
                     </div>
                     <button type="submit" class="btn btn-primary mb-2">BUSCAR</button> 
-                    <button class="btn btn-primary mb-2">LIMPAR</button>
                 </form>
             </Col>
         </Row>
