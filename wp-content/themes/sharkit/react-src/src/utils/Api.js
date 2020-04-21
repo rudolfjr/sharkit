@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://sharkit.rudolf.dev/',
+    baseURL: 'https://sharkit.com.br/',
 });
 
 export default api;

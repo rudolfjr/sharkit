@@ -41,6 +41,18 @@ export default function Vagas() {
             </Col>
         </Row>
         <Row>
+            <Col className="text-center">
+                <form class="form-inline">
+                    <div class="form-group mb-2">
+                        <label for="staticEmail2" class="sr-only">PALAVRAS CHAVES</label>
+                        <input type="text" class="form-control" placeholder="Digite as palavras desejadas*" required /> 
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">BUSCAR</button> 
+                    <button class="btn btn-primary mb-2">LIMPAR</button>
+                </form>
+            </Col>
+        </Row>
+        <Row>
         {vagas.map(vaga => (
             <Col xs={12} sm={6} md={4} lg={3} key={vaga.id}>
                 <Card>

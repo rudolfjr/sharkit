@@ -42,7 +42,11 @@ const GlobalStyles = createGlobalStyle`
         }
     }
 
-
+    .form-inline{
+        input, button{
+            margin: 5px;
+        }
+    }
 
 `;
 

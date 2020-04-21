@@ -70,11 +70,11 @@ export default function Layout(props) {
               <img src={logoBranca} alt="SharkIT" />
             </p>
             <div className="redes">
-              <a href="/"><FacebookSquare /></a> 
-              <a href="/"><LinkedinSquare /></a> 
-              <a href="/"><Instagram /></a> 
-              <a href="/"><Email /></a> 
-              <a href="/"><Whatsapp /></a> 
+              <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/Shark.IT.Solucoes/"><FacebookSquare /></a> 
+              <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/shark-it-r-s/"><LinkedinSquare /></a> 
+              <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/sharkitconsultoria/"><Instagram /></a> 
+              <a rel="noopener noreferrer" target="_blank" href="mailto:relacionamento@sharkit.com.br"><Email /></a> 
+              <a rel="noopener noreferrer" target="_blank" href="https://api.whatsapp.com/send?phone=5519996195752&text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20SharkIT"><Whatsapp /></a> 
             </div>
           </Col>
           <Col xs={12} sm={4}></Col>
@@ -92,7 +92,7 @@ export default function Layout(props) {
         <Row>
           <Col>
           <hr/>
-          <small>Criado por <Link to="https://rudolf.dev">rudolf.dev</Link></small>
+          <small>Criado por <a rel="follow noopener noreferrer" href="https://www.linkedin.com/in/rudolfkrokerjr/" target="_blank" >rudolf.dev</a></small>
           </Col>
         </Row>
       </Container>

@@ -128,3 +128,74 @@ function my_login_logo() { ?>
 <?php }
 
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+
+
+
+
+
+
+
+
+
+
+add_action( 'wp_ajax_enviarformulario', 'my_ajax_enviarformulario_handler' );
+add_action( 'wp_ajax_nopriv_enviarformulario', 'my_ajax_enviarformulario_handler' );
+
+function my_ajax_enviarformulario_handler() {
+	
+	date_default_timezone_set('America/Sao_Paulo');
+
+	$conteudo = '';
+
+	$upload_overrides = array( 'test_form' => false );
+    $movefile = wp_handle_upload( $_FILES['arquivo'], $upload_overrides );
+
+
+    if ( $movefile && !isset( $movefile['error'] ) ) {
+        //echo "File is valid, and was successfully uploaded.\n";
+        $url = $movefile['url'];
+		$arquivo = basename($movefile['url']);
+		//print_r($_FILES);
+		//var_dump($_FILES[0]);
+		//var_dump($_FILES['arquivo']['type']);
+
+		if($_FILES['arquivo']['type'] != "application/pdf"){
+			echo json_encode(array('erro' => 'arquivopdf'));
+			wp_die();
+		}
+		
+		if($url <> ""){
+			$conteudo = 'CV: ' . $url . "\n\n";
+		}
+	} 
+
+	$nome_card = '';	
+	foreach ($_POST as $key => $value) {
+		$conteudo .= str_replace('_', ' ', $key) . ' ' . $value . "\n\n";
+    }
+   // var_dump($arquivo);
+   // var_dump($conteudo);
+
+   $row = array(
+        'nome' => $_POST['nome'],
+        'telefone'   => $_POST['telefone'],
+        'email'   => $_POST['email'],
+        'cv'  => $url,
+        'quando' => date('d/m/Y h:i:s')
+    );
+
+    $foi = add_row('candidatos', $row, $_POST['idvaga']);
+    var_dump($foi);
+
+
+	$conteudo .=  'Enviado em: ' . date('d/m/Y h:i:s');
+    $assunto = "Candidatura Vaga: " . $_POST['nome'] . ' - VAGA ID: ' . $_POST['idvaga'];
+	$to = "rudinhok@gmail.com";
+    wp_mail($to, $assunto, $conteudo);
+    wp_mail('relacionamento@sharkit.com.br', $assunto, $conteudo);
+
+	echo json_encode(array('resposta' => true));
+	
+    wp_die();
+}
